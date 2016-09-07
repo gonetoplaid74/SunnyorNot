@@ -45,8 +45,9 @@ class CurrentWeather {
         if _weatherType == nil {
             _weatherType = ""
         }
-        return _weatherType
+            return _weatherType
     }
+    
     
     func downloadWeatherDetails(completed: DownloadComplete) {
         
@@ -79,9 +80,10 @@ class CurrentWeather {
                         print(self._currentTemp)
                 }
                 
-            }
+            
             
         }
+            }
         
         completed()
         
@@ -92,9 +94,9 @@ class CurrentWeather {
     }
     
 }
+
+
 }
-
-
 
 
 
